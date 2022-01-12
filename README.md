@@ -24,6 +24,12 @@ Face Mask Detector with OpenCV, Keras/TensorFlow, and Deep Learning
 
 <hr>
 
+## Data Generation
+
+We use this [Colab Notebook](https://colab.research.google.com/drive/12oO4YH2fu_idUHGTbf6zXAA6J-oHIpAx?usp=sharing) to generate our face with mask from human face image.
+
+<hr>
+
 ## Model Training and Evaluating
 
 Extract `dataset/dataset.rar` to `dataset` folder and then delete the archived file.
@@ -47,7 +53,7 @@ python '.\Face Mask Detector Train.py'
 
 ### With Jupyter Notebook
 
-Edit the following variable in `Face Mask Detector Train.ipynb`
+Edit the following variable in `Face Mask Detector Train.ipynb` or `Face Mask Detector Train Resnet.ipynb`
 
 ```python
 # path to the dataset, saved model and the plot of the training loss and accuracy
